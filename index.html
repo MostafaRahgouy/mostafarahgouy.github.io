@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mostafa Rahgouy's Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="shortcut icon" href="./images/website-logo.JPG" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <meta name="keywords" content="computer science, machine learning, natural language processing">
+
+    <meta property="og:title" content="Mostafa Rahgouy's Personal Website" />
+    <meta property="og:description" content="Mostafa Rahgouy's Personal Website - Machine Learning, Natural Language Processing, Computer Science" />
+    <meta property="og:url" content="http://mostafarahgouy.github.io" />
+    <meta property="og:image" content="./images/mostafa.jpg" />
+    <meta name="twitter:card" content="Mostafa Rahgouy's Personal Website - Machine Learning, Natural Language Processing, Computer Science" >
+    <meta name="twitter:site" content="@mo_rahgooy">
+    <meta name="twitter:creator" content="@mo_rahgooy">
+    <meta name="twitter:title" content="Mostafa Rahgouy's Personal Website">
+    <meta name="twitter:description" content="Mostafa Rahgouy's Personal Website - Machine Learning, Natural Language Processing, Computer Science" >
+		<meta name="twitter:image" content="./images/mostafa.jpg">
+  </head>
+  <body>
+        <div id="home"></div>
+        <!--------------------navbar + logoes---------------------->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/website-logo.JPG" class="logo">
+                    <strong>Mostafa Rahgouy</strong>
+                </a>        
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#publication">Publication</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#connect">Connect</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--------------------slider------------------------------->
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/ai3.jpg" class="slider">
+                    <div class="carousel-caption">
+                        <h1 class="display-2">Mostafa Rahgouy</h1>
+                        <hr color="white"/>
+                        <h3>Welcome to my personal website!</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/ai4.jpg" class="slider">
+                </div>
+            </div>
+        </div>
+        <!--------------------About-------------------------------->
+        <!--Bioghpraphy + img + CV Jumbotrom-->
+        <div class="containere-fluid" id="about">
+            <div class="row jumbotron">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-2 text-center">
+                    <img class="border border-dark img-fluid rounded about-image" src="./images/mostafa.jpg" alt="Mostafa Rahgouy">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-8">
+                    <p class="lead">
+                        I am <strong>Mostafa Rahgouy</strong>. I was born in 23 December 1994 at Eilam. My interest in computer science begins with computer games. It was interesting to me how computer games can play intelligently with us and how it is possible for a game to contain easy, hard, and medium levels. Based on this curiosity, I chose <strong>Computer Science</strong> as a field of study at the University of Mohaghegh Ardabili.
+                    </p>
+                    <p class="lead">
+                        In the undergraduate period, the most important course which gave me insight into the Computer Science world was <strong>Topics in Computer Science</strong> and <strong>Data Mining</strong>. In the Topics in Computer Science course, I studied Artificial Intelligent concepts( e.g. Greedy Search, Genetics, and Neural Networks algorithms) especially with Data Mining I got to know methods that are not conventional. I learned problems that are not algorithmic and they contain learning methods. This was so interesting to me because it was similar to human learning.                            
+                    </p>
+                    <p class="lead">
+                        In this way, I get familiarize with <strong>Machine Learning</strong> world. All of these things, aspire me to go after PAN competitions on digital text forensics and get experinced on <strong>Machine Learning</strong> and <strong>Natural Language Processing</strong>.
+                    </p>
+                    <h5>
+                        Based on my curiosity, I am very interested and enthusiastic to learn and do research in areas including Machine Learning, Natural Language Processing, and Deep Learning.
+                    </h5>
+                    <p class="lead">Email: <strong class="text-info">mostafarahgouy [at] student[dot] uma [dot] ac [dot] ir</strong> </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 text-center">
+                    <a href="./files/cv.pdf">
+                        <button type="button" class="btn btn-md">
+                            <img src="./images/cv.png" class="cv">
+                        </button>
+                    </a>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="https://stackoverflow.com/users/10933156/mostafa-rahgouy?tab=profile">
+                        <img src="./images/stack.png" class="image img-fluid rounded border border-dark">
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=gIHLI-UAAAAJ&hl=en"> 
+                        <img src="./images/google.bmp" class="image img-fluid rounded border border-dark">
+                    </a>
+                    <a href="https://github.com/MostafaRahgouy">
+                        <img src="./images/github.png" class="image img-fluid rounded">
+                    </a>
+                    <a href="https://www.linkedin.com/in/mostafa-rahgouy-b80934178/">
+                        <img src="./images/linkdin.png" class="image img-fluid rounded border border-dark">
+                    </a>
+                </div>
+            </div>
+        </div>        
+        <!--------------------Education---------------------------->
+        <div class="container-fluid padding" id="education">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">Education</h1>
+                </div>
+                
+            </div>
+            <br>
+            <div class="row padding">
+                <div class="col-md-4 col-lg-3 text-center">
+                    <img src="./images/uma-logo.png" class="img-fluid image-uni">
+                </div>
+                <div class="col-md-8 col-lg-7">
+                    <p><strong>B.Sc in Computer Science</strong></p> 
+                    <p><strong>University of Mohaghegh Ardabili, Ardabil, Iran</strong></p> 
+                    <p><strong>2014 - 2019</strong></p>
+                    <p>
+                        I studied the Computer Science at the University of Mohaghegh Ardabili with overall GPA's <strong>17.10</strong> (out of 20).
+                    </p>
+                    <a href="http://uma.ac.ir/" class="btn btn-primary">University of Mohaghegh Ardabili
+                        <span class="badge badge-light">website</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+        <!--------------------Publication-------------------------->
+        <div class="container-fluid padding" id='publication'>
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">Publication</h1>
+                </div>
+            </div>
+            <br>
+            
+            <div class="row welcome">
+                <div class="col-sm-12 col-md-3 col-lg-3 text-center">
+                        <img src="./images/clef_logo2019.png" class="clef">
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-9">
+                    <p class="lead">Cross-domain Authorship Attribution: Author Identification using a Multi-Aspect Ensemble Approach - (CLEF 2019)</p>
+                    <p class="lead"><span class="badge badge-info">M Rahgouy</span>, HB Giglou, T Rahgouy, MK Sheykhlan, E Mohammadzadeh</p>
+                    <strong>Abstract:</strong>
+                    <p>
+                        Author Attribution (AA) as one of the most important tasks of authorship analysis attracted huge body of research in recent years. In this task, given a document, the goal is to identify its author from a set of known authors and samples of their writings. In PAN 2019 shared tasks, the AA task is expanded in two ways. First, by having documents written by authors other than the known authors (UNK documents). Second, using a cross-domain set of documents. The task baseline and previous works mainly rely on character-level representation of documents because of their better generalization capability across different languages and domains. However, we hypothesize that ignoring coarse-grain features of documents may lead to loss of valuable information about the author's style. In this paper we propose an ensemble approach that combines models built upon different levels of document representation in order to investigate this hypothesis. Experimental results presented in this paper show that the coarse-grained representations of documents play an important role in identifying the authors style alongside the fine-grained representations.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row welcome">
+                <div class="col-sm-12 col-md-3 col-lg-3 text-center">
+                        <img src="./images/clef_logo2019.png" class="clef">
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-9">
+                    <p class="lead">Author Profiling: Bots and Gender Prediction using a Multi-Aspect Ensemble Approach - (CLEF 2019)</p>
+                    <p class="lead">HB Giglou, <span class="badge badge-info">M Rahgouy</span>, T Rahgooy, MK Sheykhlan, E Mohammadzadeh</p>
+                    <strong>Abstract:</strong>
+                    <p>
+                        Author Profiling is one of the most important tasks in authorship analysis. In PAN 2019 shared tasks, the gender identification of the author is the main focus. Compared to the previous year the author profiling task is expended by having documents written by bots. In order to tackle this new challenge we propose a two phase approach. In the first phase we exploit the TF-IDF features of the documents to train a model that learns to detect documents generated by bots. Next, we train three models on character-level and word-level representations of the documents and aggregate their results using majority voting. Finally, we empirically show the effectiveness of our proposed approach on the PAN 2019 development dataset for author profiling.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row welcome">
+                <div class="col-sm-12 col-md-3 col-lg-3 text-center">
+                        <img src="./images/clef_logo2018.jpg" class="clef">
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-9">
+                    <p class="lead">Author Masking Directed by Author’s Style - (CLEF 2018)</p>
+                    <p class="lead"><span class="badge badge-info">M Rahgouy</span>, HB Giglou, T Rahgooy, H Zeynali, SKM Rasooli</p>
+                    <strong>Abstract:</strong>
+                    <p>
+                        Author verification algorithms mainly rely on learning statistical fingerprints of authors. In the other hand, most of the previous algorithms in author masking try to apply changes to the original texts blindly without considering finger-prints and uses them to apply directed transformations and distortions to the original text.We represent author finger-prints with different statistics such as word choice distribution, sentence length preference, etc. obtained from author’s known texts. Automatic and manual evaluations of the obfuscated texts are very promising and show the effectiveness of our approach.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+            <!--------------------Skills + Exp------------------------->
+            <div class="container-fluid padding" id="skills">
+                <div class="row welcome text-center">
+                    <div class="col-12">
+                        <h1 class="display-4">Skills</h1>
+                    </div>
+                </div>
+
+                <p class="badge badge-primary">Programming</p>
+                <div class="row padding">
+                    <div class="col-md-6 col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img class="card-imd-top card-img" src="./images/python.png">
+                            <div class="card-body">
+                                <h5 class="card-title">Python</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li class="text-info">Intermediate</li>
+                                        <li><strong>Jupyter-notebook</strong></li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img class="card-imd-top card-img" src="./images/cpp.png">
+                            <div class="card-body">
+                                <h5 class="card-title">C / C++</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li class="text-info">Advanced</li>
+                                        <li><strong>QT GUI designer</strong></li>
+                                    </ul>
+                                </p>
+                                <a href="https://github.com/MostafaRahgouy/CheckersGame" class="btn btn-outline-secondary"> Chess Project<span class="badge badge-info"> Github Repository</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sm-6">
+                            <div class="card">
+                                <img class="card-imd-top card-img" src="./images/csharp.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">C#</h5>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li class="text-info">Intermediate</li>
+                                            <li><strong>Asp.Net MVC <span class="badge badge-info">framework</span></strong></li>
+                                        </ul>
+                                    </p>
+                                    <a href="https://github.com/MostafaRahgouy/OnlineMallOfElectronicSystem" class="btn btn-outline-secondary"> Website Project<span class="badge badge-info"> Github Repository</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <div class="col-md-6 col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img class="card-imd-top card-img" src="./images/java.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Java</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li class="text-info">Intermediate</li>
+                                    </ul>
+                                </p>
+                                <a href="https://github.com/MostafaRahgouy/Dictionary" class="btn btn-outline-secondary"> Dictionary Project<span class="badge badge-info"> Github Repository</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img class="card-imd-top card-img" src="./images/htmlcss.svg">
+                            <div class="card-body">
+                                <h5 class="card-title">HTML && CSS</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li class="text-info">Basic</li>
+                                        <li><strong>HTML5 , CSS3</strong></li>
+                                    </ul>
+                                </p>
+                                <a href="https://github.com/MostafaRahgouy/OnlineMallOfElectronicSystem" class="btn btn-outline-secondary"> Website Project<span class="badge badge-info"> Github Repository</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img class="card-imd-top card-img" src="./images/matlab.png">
+                            <div class="card-body">
+                                <h5 class="card-title">Matlab</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li class="text-info">Basic</li>    
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="badge badge-primary">Computer Tools and Packages</p>
+                <div class="row padding">
+                        <div class="col-md-6 col-lg-3 col-sm-6">
+                            <div class="card">
+                                <img class="card-imd-top card-img" src="./images/ml.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Machine Learning</h5>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li class="text-info">Scikit-learn</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-sm-6">
+                            <div class="card">
+                                <img class="card-imd-top card-img" src="./images/dm.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Data Mining</h5>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li class="text-info">Weka, Matlab</li>
+                                        </ul>
+                                    </p>
+                                    <a href="https://github.com/MostafaRahgouy/DataMining" class="btn btn-outline-secondary"> Course Project<span class="badge badge-info"> Github Repository</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-sm-6">
+                                <div class="card">
+                                    <img class="card-imd-top card-img" src="./images/nlp.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Natural Language Processing</h5>
+                                        <p class="card-text">
+                                            <ul>
+                                                <li class="text-info">NLTK, Gensim, VADER</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        <div class="col-md-6 col-lg-3 col-sm-6">
+                            <div class="card">
+                                <img class="card-imd-top card-img" src="./images/dbms.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">DBMS</h5>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li class="text-info">Microsoft SQL Server</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-sm-6">
+                            <div class="card">
+                                <img class="card-imd-top card-img" src="./images/ides.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">IDE's</h5>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li class="text-info">Microsoft Visual Studio, PyChram, IntelliJ IDEA, Jupyter Notebook</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-sm-6">
+                            <div class="card">
+                                <img class="card-imd-top card-img" src="./images/version-control.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Version Control</h5>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li class="text-info">Git</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-sm-6">
+                            <div class="card">
+                                <img class="card-imd-top card-img" src="./images/os.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Oparating Systems</h5>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li class="text-info">Linux(Ubuntu), Microsoft Windows </li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-sm-6">
+                            <div class="card">
+                                <img class="card-imd-top card-img" src="./images/other.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Others</h5>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li class="text-info">Microsoft Word, Latax </li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <hr class="my-4">
+        <!--------------------Connect------------------------------>
+        <div class="container-fluid padding" id="connect">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h2>Connect</h2>
+                </div>
+                <div class="col-12 padding social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <!------------------footer-------------------------------->
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img src="./images/website-logo.JPG" class="logo"><strong>Mostafa Rahgouy</strong>
+                        
+                        <p>Personal Academic Website</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Contact</h5>
+                        <hr class="light">
+                        <p>Call: +98 936 878 9293</p>
+                        <p>Email1: mostafarahgouy [at] student [dot] ac [dot] ir</p>
+                        <p>Email2: mostafarahgouy [at] gmail [dot] com</p>
+                        
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Location</h5>
+                        <hr class="light">
+                        <p>Tehran</p>
+                        <p>Iran</p>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light-100">
+                        <h5>&copy; mostafarahgouy.github.io</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <section>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </section>
+  </body>
+</html>
